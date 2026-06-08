@@ -5,8 +5,30 @@ export const Route = createFileRoute("/programs")({ component: ProgramsPage })
 
 const programs = [
   {
-    id: "certificate-ministry",
-    title: "Certificate in Ministry",
+    id: "certificate-biblical",
+    title: "Certificate in Biblical Studies",
+    subtitle: "Foundation Level",
+    duration: "3 Months",
+    mode: "Part-time Residential / Online Zoom",
+    entryRequirements: "None",
+    textbook: "The Holy Bible (any standard version)",
+    modules: [
+      "Introduction to Biblical Studies",
+      "Old Testament Survey",
+      "New Testament Survey",
+      "Biblical Hermeneutics",
+      "Pentateuch Studies",
+      "Gospels and Acts",
+      "Pauline Epistles",
+      "General Epistles and Revelation",
+      "Biblical Geography",
+      "The Life and Ministry of Jesus"
+    ],
+    description: "A comprehensive foundation in biblical knowledge, exploring both Old and New Testaments. Perfect for those seeking to understand Scripture more deeply and apply it to their lives."
+  },
+  {
+    id: "certificate-ministerial",
+    title: "Certificate in Ministerial Studies",
     subtitle: "Foundation Level",
     duration: "3 Months",
     mode: "Part-time Residential / Online Zoom",
@@ -14,7 +36,6 @@ const programs = [
     textbook: "Ministry Gifts by Dr Richard Oswald Commey",
     modules: [
       "The Concept of Ministry",
-      "The Governmental Offices in the Old Testament",
       "The Divine Call",
       "The Ministry Gifts",
       "The Office of the Apostle",
@@ -22,104 +43,98 @@ const programs = [
       "The Office of an Evangelist",
       "The Office of a Pastor",
       "The Office of a Teacher",
-      "Jesus Christ: The Role Model for New Testament Ministry"
-    ],
-    description: "An introductory program designed to establish foundational understanding of ministry gifts and the five-fold offices. Perfect for those beginning their journey in Christian service."
-  },
-  {
-    id: "further-certificates",
-    title: "Further Certificates in Ministry",
-    subtitle: "Extended Foundation",
-    duration: "Variable",
-    mode: "Part-time / Online",
-    entryRequirements: "Certificate in Ministry or equivalent",
-    textbook: "Various texts assigned per module",
-    modules: [
-      "Advanced Hermeneutics",
-      "Old Testament Survey",
-      "New Testament Survey",
-      "Church History",
-      "Systematic Theology I",
       "Practical Ministry Skills",
-      "Leadership Development"
+      "Jesus Christ: The Role Model for Ministry"
     ],
-    description: "Expanded theological and practical training for those who have completed the foundational certificate. Deeper exploration of biblical studies and ministry competencies."
+    description: "An introductory program designed to establish foundational understanding of ministry gifts and the five-fold offices. Ideal for those beginning their journey in Christian service."
   },
   {
-    id: "advanced-1",
-    title: "Advanced Certificate in Ministry I",
-    subtitle: "Intermediate Level",
+    id: "certificate-theological",
+    title: "Certificate in Theological Studies",
+    subtitle: "Foundation Level",
+    duration: "3 Months",
+    mode: "Part-time Residential / Online Zoom",
+    entryRequirements: "None",
+    textbook: "Systematic Theology: An Introduction",
+    modules: [
+      "Introduction to Theology",
+      "The Doctrine of God",
+      "The Doctrine of Christ",
+      "The Doctrine of the Holy Spirit",
+      "The Doctrine of the Church",
+      "The Doctrine of Salvation",
+      "The Doctrine of Eschatology",
+      "Christian Ethics",
+      "Church History Overview",
+      "Contemporary Theological Issues"
+    ],
+    description: "A systematic exploration of Christian doctrine and theology. Provides a solid theological foundation for believers seeking to understand and articulate their faith."
+  },
+  {
+    id: "advanced-biblical",
+    title: "Advanced Certificate in Biblical Studies",
+    subtitle: "Advanced Level",
     duration: "6 Months",
     mode: "Part-time / Online",
-    entryRequirements: "Further Certificates or equivalent experience",
-    textbook: "Advanced Ministry Texts",
+    entryRequirements: "Certificate in Biblical Studies or equivalent",
+    textbook: "Advanced Biblical Studies Texts",
     modules: [
-      "Biblical Exegesis Methods",
-      "Pentateuch Studies",
-      "Prophetic Literature",
-      "Systematic Theology II",
-      "Homiletics",
-      "Pastoral Care",
-      "Church Administration"
-    ],
-    description: "Intermediate program focusing on deeper biblical studies, leadership development, and pastoral competencies. Prepares students for more significant ministry responsibilities."
-  },
-  {
-    id: "advanced-2",
-    title: "Advanced Certificate in Ministry II",
-    subtitle: "Advanced Level",
-    duration: "9 Months",
-    mode: "Part-time / Online",
-    entryRequirements: "Advanced Certificate I or equivalent",
-    textbook: "Graduate-level theological texts",
-    modules: [
-      "Advanced Biblical Greek",
-      "New Testament Exegesis",
-      "Pauline Theology",
-      "Contemporary Theological Issues",
-      "Ministry Ethics",
-      "Strategic Leadership",
-      "Mission and Evangelism"
-    ],
-    description: "Advanced ministerial preparation with emphasis on biblical languages, theological depth, and strategic leadership for effective ministry in diverse contexts."
-  },
-  {
-    id: "advanced-3",
-    title: "Advanced Certificate in Ministry III",
-    subtitle: "Comprehensive Level",
-    duration: "12 Months",
-    mode: "Part-time / Online",
-    entryRequirements: "Advanced Certificate II",
-    textbook: "Seminary-level comprehensive texts",
-    modules: [
-      "Advanced Hebrew Studies",
+      "Advanced Hermeneutics",
+      "Biblical Hebrew: Elementary",
+      "Biblical Greek: Elementary",
       "Old Testament Exegesis",
+      "New Testament Exegesis",
       "Biblical Theology",
-      "Historical Theology",
-      "Research Methodology",
-      "Thesis Preparation",
-      "Advanced Pastoral Counseling"
+      "Textual Criticism",
+      "Archaeology and the Bible",
+      "Ancient Near Eastern Context",
+      "The Intertestamental Period"
     ],
-    description: "Our most comprehensive certificate program, equivalent to graduate-level theological education. Includes research methodology and thesis preparation for serious ministry scholars."
+    description: "Advanced study of Scripture with introduction to biblical languages. Develops skills in exegesis and deeper understanding of biblical texts and their contexts."
   },
   {
-    id: "certificate-prophecy",
-    title: "Certificate in Prophecy",
-    subtitle: "Specialized Track",
-    duration: "Variable / Intensive Options",
-    mode: "Online / Intensive Workshops",
-    entryRequirements: "Open to all believers with pastoral recommendation",
-    textbook: "Prophetic Ministry Texts by Dr. Commey",
+    id: "advanced-ministerial",
+    title: "Advanced Certificate in Ministerial Studies",
+    subtitle: "Advanced Level",
+    duration: "6 Months",
+    mode: "Part-time / Online",
+    entryRequirements: "Certificate in Ministerial Studies or equivalent",
+    textbook: "Advanced Ministry Leadership Texts",
     modules: [
-      "The Prophetic Office in Scripture",
-      "Old Testament Prophetic Models",
-      "New Testament Prophetic Ministry",
-      "The Revelation Gifts",
-      "Prophetic Protocol",
-      "Activating Prophetic Ministry",
-      "Mentoring in the Prophetic"
+      "Advanced Homiletics",
+      "Pastoral Counseling",
+      "Church Administration",
+      "Strategic Leadership",
+      "Missions and Evangelism",
+      "Worship Ministry",
+      "Youth and Children's Ministry",
+      "Discipleship Development",
+      "Conflict Resolution",
+      "Ministry Ethics and Professionalism"
     ],
-    description: "Specialized training in prophetic ministry, unique to Ramah Bible College's identity. Based on Dr. Commey's decades of experience in the prophetic office and teaching."
+    description: "Advanced preparation for ministry leadership. Covers pastoral care, church management, and specialized ministry areas for effective service in diverse contexts."
+  },
+  {
+    id: "advanced-theological",
+    title: "Advanced Certificate in Theological Studies",
+    subtitle: "Advanced Level",
+    duration: "6 Months",
+    mode: "Part-time / Online",
+    entryRequirements: "Certificate in Theological Studies or equivalent",
+    textbook: "Advanced Systematic Theology",
+    modules: [
+      "Historical Theology",
+      "Advanced Christology",
+      "Pneumatology: Doctrine of the Spirit",
+      "Soteriology: Doctrine of Salvation",
+      "Ecclesiology: Doctrine of the Church",
+      "Eschatology: Doctrine of Last Things",
+      "Apologetics",
+      "Comparative Religions",
+      "Contemporary Theological Movements",
+      "Research and Writing in Theology"
+    ],
+    description: "Advanced theological study with emphasis on historical development of doctrine and contemporary theological discourse. Prepares students for teaching and theological writing."
   }
 ]
 
