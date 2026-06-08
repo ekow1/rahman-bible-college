@@ -7,6 +7,10 @@ import tailwindcss from "@tailwindcss/vite"
 const config = defineConfig({
   resolve: { tsconfigPaths: true },
   plugins: [devtools(), tailwindcss(), tanstackStart(), viteReact()],
+  build: {
+    outDir: 'dist',
+    emptyOutDir: true,
+  },
 })
 
 export default config
