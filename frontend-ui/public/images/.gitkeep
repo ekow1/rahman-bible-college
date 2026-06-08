@@ -1,0 +1,7 @@
+# Place your hero images here:
+# - hero-1.jpg (Chapel/Campus)
+# - hero-2.jpg (Library/Classroom)
+# - hero-3.jpg (Ministry/Global)
+# 
+# Then update slides array in src/routes/index.tsx:
+# image: "/images/hero-1.jpg"
