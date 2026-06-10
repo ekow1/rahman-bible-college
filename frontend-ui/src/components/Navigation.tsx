@@ -73,26 +73,17 @@ export function Navigation() {
               Apply Now
             </Link>
             
-            {/* Login Links */}
-            <div className={`flex items-center gap-4 pl-4 border-l ${
+            {/* Login Link */}
+            <div className={`pl-4 border-l ${
               scrolled ? 'border-stone/20' : 'border-parchment/20'
             }`}>
               <a 
-                href="https://ramahbiblecollege.org/student-login" 
+                href="https://ramahbiblecollege.org/login" 
                 className={`text-xs uppercase tracking-wider transition-colors ${
                   scrolled ? 'text-ink/60 hover:text-gold' : 'text-parchment/60 hover:text-gold'
                 }`}
               >
-                Student Login
-              </a>
-              <span className={`text-xs ${scrolled ? 'text-stone/40' : 'text-parchment/40'}`}>|</span>
-              <a 
-                href="https://ramahbiblecollege.org/admin-login" 
-                className={`text-xs uppercase tracking-wider transition-colors ${
-                  scrolled ? 'text-ink/60 hover:text-gold' : 'text-parchment/60 hover:text-gold'
-                }`}
-              >
-                Admin Login
+                Login
               </a>
             </div>
           </div>
@@ -133,26 +124,15 @@ export function Navigation() {
                 Apply Now
               </Link>
               
-              {/* Login Links */}
+              {/* Login Link */}
               <div className="pt-4 mt-4 border-t border-stone/10">
-                <p className="text-xs uppercase tracking-wider text-stone/50 mb-3">Portal Login</p>
-                <div className="flex gap-4">
-                  <a 
-                    href="https://ramahbiblecollege.org/student-login"
-                    className="text-sm font-medium text-ink/70 hover:text-gold transition-colors"
-                    onClick={() => setIsOpen(false)}
-                  >
-                    Student Login
-                  </a>
-                  <span className="text-stone/30">|</span>
-                  <a 
-                    href="https://ramahbiblecollege.org/admin-login"
-                    className="text-sm font-medium text-ink/70 hover:text-gold transition-colors"
-                    onClick={() => setIsOpen(false)}
-                  >
-                    Admin Login
-                  </a>
-                </div>
+                <a 
+                  href="https://ramahbiblecollege.org/login"
+                  className="text-sm font-medium text-ink/70 hover:text-gold transition-colors"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Login
+                </a>
               </div>
           </div>
         </div>
