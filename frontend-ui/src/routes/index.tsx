@@ -175,40 +175,6 @@ function HeroSlider() {
         </span>
       </div>
 
-      <style>{`
-        @keyframes slideUp {
-          from {
-            opacity: 0;
-            transform: translateY(100%);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-        @keyframes slideDown {
-          from {
-            opacity: 0;
-            transform: translateY(-100%);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-        .animate-slideUp {
-          animation: slideUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-        }
-        .animate-slideDown {
-          animation: slideDown 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-        }
-        .vertical-text {
-          writing-mode: vertical-rl;
-          text-orientation: mixed;
-          transform: rotate(180deg);
-          letter-spacing: 0.3em;
-        }
-      `}</style>
     </section>
   )
 }
@@ -332,45 +298,45 @@ function HomePage() {
             <div className="lg:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
                 {
-                  title: "Certificate in Ministry",
+                  title: "Certificate in Biblical Studies",
                   duration: "3 Months",
-                  mode: "Part-time / Online",
-                  description: "Foundation in ministry gifts",
-                  image: "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?w=600&q=80"
-                },
-                {
-                  title: "Further Certificates",
-                  duration: "Variable",
-                  mode: "Part-time / Online",
-                  description: "Expanded theological training",
-                  image: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&q=80"
-                },
-                {
-                  title: "Advanced Certificate I",
-                  duration: "6 Months",
-                  mode: "Part-time / Online",
-                  description: "Deeper biblical studies",
+                  mode: "Part-time / Online Zoom",
+                  description: "Foundation in biblical hermeneutics and Scripture",
                   image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&q=80"
                 },
                 {
-                  title: "Advanced Certificate II",
-                  duration: "9 Months",
-                  mode: "Part-time / Online",
-                  description: "Advanced competencies",
+                  title: "Certificate in Theological Studies",
+                  duration: "3 Months",
+                  mode: "Part-time / Online Zoom",
+                  description: "Core Christian doctrines and systematic theology",
                   image: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&q=80"
                 },
                 {
-                  title: "Advanced Certificate III",
-                  duration: "12 Months",
+                  title: "Certificate in Ministerial Studies",
+                  duration: "3 Months",
+                  mode: "Part-time / Online Zoom",
+                  description: "Practical training for effective ministry",
+                  image: "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?w=600&q=80"
+                },
+                {
+                  title: "Adv. Certificate in Biblical Studies",
+                  duration: "6 Months",
                   mode: "Part-time / Online",
-                  description: "Comprehensive preparation",
+                  description: "Advanced hermeneutics and New Testament epistles",
+                  image: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&q=80"
+                },
+                {
+                  title: "Adv. Certificate in Theological Studies",
+                  duration: "6 Months",
+                  mode: "Part-time / Online",
+                  description: "Pneumatology, Acts, and biblical theology of missions",
                   image: "https://images.unsplash.com/photo-1470549638415-0a0755be0619?w=600&q=80"
                 },
                 {
-                  title: "Certificate in Prophecy",
-                  duration: "Variable",
-                  mode: "Online / Intensive",
-                  description: "Prophetic ministry training",
+                  title: "Adv. Certificate in Ministerial Studies",
+                  duration: "6 Months",
+                  mode: "Part-time / Online",
+                  description: "Leadership, ethics, and ministerial development",
                   image: "https://images.unsplash.com/photo-1507692049790-de58290a4334?w=600&q=80"
                 }
               ].map((program, index) => (
