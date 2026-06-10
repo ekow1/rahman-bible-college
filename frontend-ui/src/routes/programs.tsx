@@ -13,40 +13,12 @@ const programs = [
     entryRequirements: "None",
     textbook: "The Holy Bible (any standard version)",
     modules: [
-      "Introduction to Biblical Studies",
-      "Old Testament Survey",
-      "New Testament Survey",
-      "Biblical Hermeneutics",
-      "Pentateuch Studies",
-      "Gospels and Acts",
-      "Pauline Epistles",
-      "General Epistles and Revelation",
-      "Biblical Geography",
-      "The Life and Ministry of Jesus"
+      "BIB001: Biblical Hermeneutics",
+      "BIB002: First Corinthians",
+      "BIB003: Minor Prophets",
+      "BIB004: Gospel of John"
     ],
-    description: "A comprehensive foundation in biblical knowledge, exploring both Old and New Testaments. Perfect for those seeking to understand Scripture more deeply and apply it to their lives."
-  },
-  {
-    id: "certificate-ministerial",
-    title: "Certificate in Ministerial Studies",
-    subtitle: "Foundation Level",
-    duration: "3 Months",
-    mode: "Part-time Residential / Online Zoom",
-    entryRequirements: "None",
-    textbook: "Ministry Gifts by Dr Richard Oswald Commey",
-    modules: [
-      "The Concept of Ministry",
-      "The Divine Call",
-      "The Ministry Gifts",
-      "The Office of the Apostle",
-      "The Office of the Prophet",
-      "The Office of an Evangelist",
-      "The Office of a Pastor",
-      "The Office of a Teacher",
-      "Practical Ministry Skills",
-      "Jesus Christ: The Role Model for Ministry"
-    ],
-    description: "An introductory program designed to establish foundational understanding of ministry gifts and the five-fold offices. Ideal for those beginning their journey in Christian service."
+    description: "A foundational exploration of Scripture through hermeneutics, Pauline epistle, prophetic literature, and the Gospel of John. Ideal for those beginning serious biblical study."
   },
   {
     id: "certificate-theological",
@@ -57,18 +29,28 @@ const programs = [
     entryRequirements: "None",
     textbook: "Systematic Theology: An Introduction",
     modules: [
-      "Introduction to Theology",
-      "The Doctrine of God",
-      "The Doctrine of Christ",
-      "The Doctrine of the Holy Spirit",
-      "The Doctrine of the Church",
-      "The Doctrine of Salvation",
-      "The Doctrine of Eschatology",
-      "Christian Ethics",
-      "Church History Overview",
-      "Contemporary Theological Issues"
+      "THE001: Pneumatology",
+      "THE002: Theology Proper and Angelology",
+      "THE003: Soteriology",
+      "THE004: Christology"
     ],
-    description: "A systematic exploration of Christian doctrine and theology. Provides a solid theological foundation for believers seeking to understand and articulate their faith."
+    description: "A systematic study of core Christian doctrines covering the Holy Spirit, the nature of God, salvation, and the person and work of Christ. Builds a firm theological foundation."
+  },
+  {
+    id: "certificate-ministerial",
+    title: "Certificate in Ministerial Studies",
+    subtitle: "Foundation Level",
+    duration: "3 Months",
+    mode: "Part-time Residential / Online Zoom",
+    entryRequirements: "None",
+    textbook: "Ministry Gifts by Dr Richard Oswald Commey",
+    modules: [
+      "MIN001: Pastoral Ministries",
+      "MIN002: Principles of Preaching",
+      "MIN003: Principles of Teaching",
+      "MIN004: Introduction to Missions"
+    ],
+    description: "Practical training for effective Christian service, covering pastoral care, homiletics, teaching methods, and an introduction to global missions."
   },
   {
     id: "advanced-biblical",
@@ -79,40 +61,12 @@ const programs = [
     entryRequirements: "Certificate in Biblical Studies or equivalent",
     textbook: "Advanced Biblical Studies Texts",
     modules: [
-      "Advanced Hermeneutics",
-      "Biblical Hebrew: Elementary",
-      "Biblical Greek: Elementary",
-      "Old Testament Exegesis",
-      "New Testament Exegesis",
-      "Biblical Theology",
-      "Textual Criticism",
-      "Archaeology and the Bible",
-      "Ancient Near Eastern Context",
-      "The Intertestamental Period"
+      "BIB100: Advanced Biblical Hermeneutics",
+      "BIB101: Epistle to the Hebrews",
+      "BIB102: Epistle to the Galatians",
+      "BIB103: Themes in Hosea and Amos"
     ],
-    description: "Advanced study of Scripture with introduction to biblical languages. Develops skills in exegesis and deeper understanding of biblical texts and their contexts."
-  },
-  {
-    id: "advanced-ministerial",
-    title: "Advanced Certificate in Ministerial Studies",
-    subtitle: "Advanced Level",
-    duration: "6 Months",
-    mode: "Part-time / Online",
-    entryRequirements: "Certificate in Ministerial Studies or equivalent",
-    textbook: "Advanced Ministry Leadership Texts",
-    modules: [
-      "Advanced Homiletics",
-      "Pastoral Counseling",
-      "Church Administration",
-      "Strategic Leadership",
-      "Missions and Evangelism",
-      "Worship Ministry",
-      "Youth and Children's Ministry",
-      "Discipleship Development",
-      "Conflict Resolution",
-      "Ministry Ethics and Professionalism"
-    ],
-    description: "Advanced preparation for ministry leadership. Covers pastoral care, church management, and specialized ministry areas for effective service in diverse contexts."
+    description: "Advanced biblical study deepening skills in hermeneutics and exegesis through key New Testament epistles and Old Testament prophetic texts."
   },
   {
     id: "advanced-theological",
@@ -123,18 +77,28 @@ const programs = [
     entryRequirements: "Certificate in Theological Studies or equivalent",
     textbook: "Advanced Systematic Theology",
     modules: [
-      "Historical Theology",
-      "Advanced Christology",
-      "Pneumatology: Doctrine of the Spirit",
-      "Soteriology: Doctrine of Salvation",
-      "Ecclesiology: Doctrine of the Church",
-      "Eschatology: Doctrine of Last Things",
-      "Apologetics",
-      "Comparative Religions",
-      "Contemporary Theological Movements",
-      "Research and Writing in Theology"
+      "THE100: Theology and History of Acts",
+      "THE101: Pneumatology of Luke",
+      "THE102: Biblical Theology of Missions",
+      "THE103: Pastoral Theology"
     ],
-    description: "Advanced theological study with emphasis on historical development of doctrine and contemporary theological discourse. Prepares students for teaching and theological writing."
+    description: "Advanced theological study examining the Acts of the Apostles, Lukan pneumatology, mission theology, and pastoral theology for ministry formation."
+  },
+  {
+    id: "advanced-ministerial",
+    title: "Advanced Certificate in Ministerial Studies",
+    subtitle: "Advanced Level",
+    duration: "6 Months",
+    mode: "Part-time / Online",
+    entryRequirements: "Certificate in Ministerial Studies or equivalent",
+    textbook: "Advanced Ministry Leadership Texts",
+    modules: [
+      "MIN100: Leadership Development",
+      "MIN101: Christian Organisations",
+      "MIN102: Ministerial Ethics",
+      "MIN103: Marriage Counselling"
+    ],
+    description: "Advanced ministerial training focused on leadership, organisational management, ethical integrity, and counselling for holistic and effective ministry."
   }
 ]
 
@@ -246,12 +210,16 @@ function ProgramsPage() {
                     </div>
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                      {program.modules.map((module, idx) => (
-                        <div key={idx} className="flex items-start gap-3">
-                          <span className="text-gold font-medium text-sm">{String(idx + 1).padStart(2, '0')}</span>
-                          <span className="text-stone text-sm">{module}</span>
-                        </div>
-                      ))}
+                      {program.modules.map((module, idx) => {
+                        const [code, ...nameParts] = module.split(': ')
+                        const name = nameParts.join(': ')
+                        return (
+                          <div key={idx} className="flex items-start gap-3">
+                            <span className="text-gold font-mono font-medium text-xs shrink-0 mt-0.5">{code}</span>
+                            <span className="text-stone text-sm">{name}</span>
+                          </div>
+                        )
+                      })}
                     </div>
                   </div>
                 </div>
