@@ -10,7 +10,7 @@ function ContactPage() {
       <section className="relative py-32 md:py-48 text-parchment overflow-hidden">
         {/* Background Image */}
         <img 
-          src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1920&q=80" 
+          src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1920&q=80" 
           alt="Contact"
           className="absolute inset-0 w-full h-full object-cover grayscale"
         />

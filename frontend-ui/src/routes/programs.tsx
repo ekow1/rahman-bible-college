@@ -109,7 +109,7 @@ function ProgramsPage() {
       <section className="relative py-32 md:py-48 text-parchment overflow-hidden">
         {/* Background Image */}
         <img 
-          src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1920&q=80" 
+          src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1920&q=80" 
           alt="Academic Programs"
           className="absolute inset-0 w-full h-full object-cover grayscale"
         />

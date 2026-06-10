@@ -10,7 +10,7 @@ function ApplyPage() {
       <section className="relative py-32 md:py-48 text-parchment overflow-hidden">
         {/* Background Image */}
         <img 
-          src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1920&q=80" 
+          src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&q=80" 
           alt="Apply"
           className="absolute inset-0 w-full h-full object-cover grayscale"
         />

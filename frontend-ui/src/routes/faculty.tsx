@@ -76,7 +76,7 @@ function FacultyPage() {
       <section className="relative py-32 md:py-48 text-parchment overflow-hidden">
         {/* Background Image */}
         <img 
-          src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=1920&q=80" 
+          src="https://images.unsplash.com/photo-1504052434569-70ad5836ab65?w=1920&q=80" 
           alt="Faculty"
           className="absolute inset-0 w-full h-full object-cover grayscale"
         />
@@ -117,14 +117,14 @@ function FacultyPage() {
                 <div className="sm:w-48 md:w-56 flex-shrink-0 relative bg-stone/20 overflow-hidden">
                   <img 
                     src={[
-                      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
-                      "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80",
-                      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
-                      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&q=80",
-                      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80",
+                      "https://images.unsplash.com/photo-1531384441138-2736e62e0919?w=400&q=80",
+                      "https://images.unsplash.com/photo-1614289371518-722f2615943d?w=400&q=80",
+                      "https://images.unsplash.com/photo-1559526324-593bc073d938?w=400&q=80",
                       "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80",
-                      "https://images.unsplash.com/photo-1625600243103-1dc6824c6c8a?w=400&q=80",
-                      "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400&q=80"
+                      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80",
+                      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&q=80"
                     ][index]} 
                     alt={faculty.name}
                     className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"

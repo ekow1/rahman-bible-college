@@ -162,7 +162,7 @@ function TeachingsPage() {
       {/* Hero */}
       <section className="relative py-32 md:py-48 text-parchment overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=1920&q=80"
+          src="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=1920&q=80"
           alt="Teachings"
           className="absolute inset-0 w-full h-full object-cover grayscale"
         />

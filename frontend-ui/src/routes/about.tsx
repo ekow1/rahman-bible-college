@@ -11,7 +11,7 @@ function AboutPage() {
       <section className="relative py-32 md:py-48 text-parchment overflow-hidden">
         {/* Background Image */}
         <img 
-          src="https://images.unsplash.com/photo-1548625149-fc4a29cf7092?w=1920&q=80" 
+          src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1920&q=80" 
           alt="About Ramah Bible College"
           className="absolute inset-0 w-full h-full object-cover grayscale"
         />
@@ -165,7 +165,7 @@ function AboutPage() {
             <div className="relative order-2 lg:order-1">
               <div className="aspect-[3/4] relative overflow-hidden border border-parchment/20">
                 <img 
-                  src="https://images.unsplash.com/photo-1625600243103-1dc6824c6c8a?w=800&q=80" 
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80" 
                   alt="Dr. Richard Oswald Commey"
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 />
