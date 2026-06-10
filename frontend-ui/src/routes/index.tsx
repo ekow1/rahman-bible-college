@@ -320,21 +320,21 @@ function HomePage() {
                 },
                 {
                   title: "Adv. Certificate in Biblical Studies",
-                  duration: "6 Months",
+                  duration: "3 Months",
                   mode: "Part-time / Online",
                   description: "Advanced hermeneutics and New Testament epistles",
                   image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&q=80"
                 },
                 {
                   title: "Adv. Certificate in Theological Studies",
-                  duration: "6 Months",
+                  duration: "3 Months",
                   mode: "Part-time / Online",
                   description: "Pneumatology, Acts, and biblical theology of missions",
                   image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&q=80"
                 },
                 {
                   title: "Adv. Certificate in Ministerial Studies",
-                  duration: "6 Months",
+                  duration: "3 Months",
                   mode: "Part-time / Online",
                   description: "Leadership, ethics, and ministerial development",
                   image: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=600&q=80"
