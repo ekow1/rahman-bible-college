@@ -209,20 +209,14 @@ function ProgramsPage() {
                       <h3 className="font-serif text-xl">Course Modules</h3>
                     </div>
                     
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                       {program.modules.map((module, idx) => {
                         const [code, ...nameParts] = module.split(': ')
                         const name = nameParts.join(': ')
                         return (
-                          <div key={idx} className="flex items-stretch gap-0 border border-stone/10 overflow-hidden hover:border-gold transition-colors duration-200">
-                            <div className="bg-ink px-3 flex items-center justify-center shrink-0">
-                              <span className="font-mono font-semibold text-gold text-xs writing-mode-vertical whitespace-nowrap" style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)', letterSpacing: '0.1em' }}>
-                                {code}
-                              </span>
-                            </div>
-                            <div className="py-4 px-4 flex items-center">
-                              <span className="text-ink font-medium text-sm leading-snug">{name}</span>
-                            </div>
+                          <div key={idx} className="flex items-center gap-4 py-3 border-b border-stone/10 last:border-0">
+                            <span className="font-mono text-gold font-semibold text-sm shrink-0">{code}</span>
+                            <span className="text-ink text-base font-medium">{name}</span>
                           </div>
                         )
                       })}
