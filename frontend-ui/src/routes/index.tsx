@@ -80,13 +80,13 @@ function HeroSlider() {
 
       {/* Content */}
       <div className="relative z-10 h-full container-editorial flex flex-col justify-center">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl pt-20">
 
           {/* Title with animation */}
-          <div className="overflow-hidden mb-8">
+          <div className="overflow-hidden pb-2 mb-8">
             <h1 
               key={current}
-              className={`font-serif text-parchment text-5xl md:text-7xl lg:text-8xl font-semibold leading-[0.9] transition-all duration-700 ${
+              className={`font-serif text-parchment text-5xl md:text-7xl lg:text-8xl font-semibold leading-tight transition-all duration-700 ${
                 direction === 'next' ? 'animate-slideUp' : 'animate-slideDown'
               }`}
             >
@@ -95,7 +95,7 @@ function HeroSlider() {
           </div>
 
           {/* Description */}
-          <div className="overflow-hidden mb-10">
+          <div className="overflow-hidden pb-1 mb-10">
             <p 
               key={`desc-${current}`}
               className={`text-parchment/60 text-xl md:text-2xl font-light max-w-xl transition-all duration-700 delay-100 ${
@@ -107,7 +107,7 @@ function HeroSlider() {
           </div>
 
           {/* CTA */}
-          <div className="overflow-hidden">
+          <div className="overflow-hidden pb-2">
             <Link
               key={`cta-${current}`}
               to={slides[current].link}
