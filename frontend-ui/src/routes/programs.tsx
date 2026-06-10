@@ -193,12 +193,14 @@ function ProgramsPage() {
                     </p>
                   </div>
 
-                  <Link 
-                    to="/apply" 
+                  <a 
+                    href="https://app-exampro-fdt6ljl6jpxd4.azurewebsites.net/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="btn-primary text-xs py-3 px-6"
                   >
                     Apply for this Program
-                  </Link>
+                  </a>
                 </div>
 
                 {/* Program Details - Modules only */}
@@ -252,9 +254,9 @@ function ProgramsPage() {
           <h2 className="font-serif mb-6">Ready to Begin?</h2>
           <div className="rule mx-auto mb-8" />
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/apply" className="btn-primary">
+            <a href="https://app-exampro-fdt6ljl6jpxd4.azurewebsites.net/" target="_blank" rel="noopener noreferrer" className="btn-primary">
               Apply Now
-            </Link>
+            </a>
             <Link to="/contact" className="btn-outline">
               Request Information
             </Link>

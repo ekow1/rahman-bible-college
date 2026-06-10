@@ -62,8 +62,10 @@ export function Navigation() {
                 {link.label}
               </Link>
             ))}
-            <Link
-              to="/apply"
+            <a
+              href="https://app-exampro-fdt6ljl6jpxd4.azurewebsites.net/"
+              target="_blank"
+              rel="noopener noreferrer"
               className={`text-xs py-3 px-6 font-medium uppercase tracking-wider transition-all ${
                 scrolled 
                   ? 'bg-ink text-parchment hover:bg-gold hover:text-ink' 
@@ -71,14 +73,14 @@ export function Navigation() {
               }`}
             >
               Apply Now
-            </Link>
+            </a>
             
             {/* Login Link */}
             <div className={`pl-4 border-l ${
               scrolled ? 'border-stone/20' : 'border-parchment/20'
             }`}>
               <a 
-                href="https://ramahbiblecollege.org/login" 
+                href="https://app-exampro-fdt6ljl6jpxd4.azurewebsites.net/" 
                 className={`text-xs uppercase tracking-wider transition-colors ${
                   scrolled ? 'text-ink/60 hover:text-gold' : 'text-parchment/60 hover:text-gold'
                 }`}
@@ -116,18 +118,20 @@ export function Navigation() {
                   {link.label}
                 </Link>
               ))}
-              <Link
-                to="/apply"
+              <a
+                href="https://app-exampro-fdt6ljl6jpxd4.azurewebsites.net/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn-primary text-center mt-4"
                 onClick={() => setIsOpen(false)}
               >
                 Apply Now
-              </Link>
+              </a>
               
               {/* Login Link */}
               <div className="pt-4 mt-4 border-t border-stone/10">
                 <a 
-                  href="https://ramahbiblecollege.org/login"
+                  href="https://app-exampro-fdt6ljl6jpxd4.azurewebsites.net/"
                   className="text-sm font-medium text-ink/70 hover:text-gold transition-colors"
                   onClick={() => setIsOpen(false)}
                 >

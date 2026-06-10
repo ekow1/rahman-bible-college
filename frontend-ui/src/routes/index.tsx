@@ -452,9 +452,9 @@ function HomePage() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/apply" className="btn-primary">
+            <a href="https://app-exampro-fdt6ljl6jpxd4.azurewebsites.net/" target="_blank" rel="noopener noreferrer" className="btn-primary">
               Apply Now
-            </Link>
+            </a>
             <Link to="/contact" className="btn-outline">
               Request Information
             </Link>

@@ -31,23 +31,18 @@ export function Footer() {
               <Link to="/programs" className="text-parchment/70 hover:text-gold transition-colors">Programs</Link>
               <Link to="/faculty" className="text-parchment/70 hover:text-gold transition-colors">Faculty</Link>
               <Link to="/contact" className="text-parchment/70 hover:text-gold transition-colors">Contact</Link>
-              <Link to="/apply" className="text-parchment/70 hover:text-gold transition-colors">Apply Now</Link>
+              <a href="https://app-exampro-fdt6ljl6jpxd4.azurewebsites.net/" target="_blank" rel="noopener noreferrer" className="text-parchment/70 hover:text-gold transition-colors">Apply Now</a>
             </div>
             {/* Login Links */}
             <div className="pt-4 border-t border-parchment/10">
               <div className="flex gap-4">
                 <a 
-                  href="https://ramahbiblecollege.org/student-login" 
+                  href="https://app-exampro-fdt6ljl6jpxd4.azurewebsites.net/" 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-xs uppercase tracking-wider text-parchment/50 hover:text-gold transition-colors"
                 >
-                  Student Login
-                </a>
-                <span className="text-parchment/30">|</span>
-                <a 
-                  href="https://ramahbiblecollege.org/admin-login" 
-                  className="text-xs uppercase tracking-wider text-parchment/50 hover:text-gold transition-colors"
-                >
-                  Admin Login
+                  Login
                 </a>
               </div>
             </div>
