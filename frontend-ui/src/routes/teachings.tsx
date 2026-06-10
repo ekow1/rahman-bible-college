@@ -132,7 +132,7 @@ function VideoCard({ teaching, index, onPlay }: { teaching: Teaching; index: num
         <div className="h-px bg-stone/10 w-full mt-auto">
           <div className="h-full bg-gold w-8 group-hover:w-full transition-all duration-500" />
         </div>
-        <p className="text-xs text-stone/50 uppercase tracking-wider">{teaching.speaker}</p>
+        <p className="text-sm text-stone font-medium">{teaching.speaker}</p>
       </div>
     </div>
   )
